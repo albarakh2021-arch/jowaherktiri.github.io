@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>موقعي للأفلييت</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      padding: 10px 0 30px 0;
+      border-bottom: 2px solid #009578;
+    }
+    header h1 {
+      margin: 0;
+      color: #009578;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 0;
+      list-style: none;
+    }
+    .product-item {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+      padding: 15px;
+      width: 260px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .product-img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    }
+    .product-name {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #333;
+      font-weight: 600;
+      min-height: 48px;
+    }
+    .product-desc {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 15px;
+      min-height: 48px;
+    }
+    .btn-buy {
+      display: inline-block;
+      background: #009578;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn-buy:hover {
+      background: #007a58;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0;
+      color: #666;
+      font-size: 0.9rem;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>موقع الترويج للمنتجات</h1>
+    <p>اختر المنتج المناسب واضغط على "اشتري الآن" لدعمنا</p>
+  </header>
+
+  <main>
+    <ul class="product-list">
+      <!-- المنتج الأول -->
+      <li class="product-item">
+        <img src="https://via.placeholder.com/260x180?text=منتج+1" alt="منتج 1" class="product-img" />
+        <h2 class="product-name">ساعة ذكية حديثة</h2>
+        <p class="product-desc">ساعة مع شاشة لمس، مقاومة للماء، وميزات صحية متعددة.</p>
+        <a href="رابط_الأفلييت_الخاص_بك_للمنتج_١" target="_blank" class="btn-buy">اشتري الآن</a>
+      </li>
+
+      <!-- المنتج الثاني -->
+      <li class="product-item">
+        <img src="https://via.placeholder.com/260x180?text=منتج+2" alt="منتج 2" class="product-img" />
+        <h2 class="product-name">سماعات لاسلكية</h2>
+        <p class="product-desc">سماعات عالية الجودة مع عمر بطارية طويل وتصميم مريح.</p>
+        <a href="رابط_الأفلييت_الخاص_بك_للمنتج_٢" target="_blank" class="btn-buy">اشتري الآن</a>
+      </li>
+
+      <!-- المنتج الثالث -->
+      <li class="product-item">
+        <img src="https://via.placeholder.com/260x180?text=منتج+3" alt="منتج 3" class="product-img" />
+        <h2 class="product-name">كاميرا رقمية احترافية</h2>
+        <p class="product-desc">كاميرا بدقة عالية مع عدسات قابلة للتبديل ومزايا متطورة.</p>
+        <a href="رابط_الأفلييت_الخاص_بك_للمنتج_٣" target="_blank" class="btn-buy">اشتري الآن</a>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2025 موقعي. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
